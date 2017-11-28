@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.lowen.common.Global;
+import com.lowen.common.utils.Global;
 
 
 /**

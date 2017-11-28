@@ -1,4 +1,4 @@
-package com.lowen.common;
+package com.lowen.common.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

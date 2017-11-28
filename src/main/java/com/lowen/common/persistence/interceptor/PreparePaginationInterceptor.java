@@ -13,8 +13,8 @@ import org.apache.ibatis.plugin.Invocation;
 import org.apache.ibatis.plugin.Plugin;
 import org.apache.ibatis.plugin.Signature;
 
-import com.lowen.common.Reflections;
 import com.lowen.common.persistence.Page;
+import com.lowen.common.utils.Reflections;
 
 /**
  * Mybatis数据库分页插件，拦截StatementHandler的prepare方法

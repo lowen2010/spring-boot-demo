@@ -23,9 +23,9 @@ import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.type.TypeHandler;
 import org.apache.ibatis.type.TypeHandlerRegistry;
 
-import com.lowen.common.Reflections;
 import com.lowen.common.persistence.Page;
 import com.lowen.common.persistence.dialect.Dialect;
+import com.lowen.common.utils.Reflections;
 
 /**
  * SQL工具类

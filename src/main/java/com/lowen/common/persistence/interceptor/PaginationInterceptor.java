@@ -15,8 +15,8 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.session.ResultHandler;
 import org.apache.ibatis.session.RowBounds;
 
-import com.lowen.common.Reflections;
 import com.lowen.common.persistence.Page;
+import com.lowen.common.utils.Reflections;
 
 /**
  * 数据库分页插件，只拦截查询语句.

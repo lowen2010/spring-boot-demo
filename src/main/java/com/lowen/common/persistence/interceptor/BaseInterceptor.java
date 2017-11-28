@@ -7,8 +7,6 @@ import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.plugin.Interceptor;
 
-import com.lowen.common.Global;
-import com.lowen.common.Reflections;
 import com.lowen.common.persistence.Page;
 import com.lowen.common.persistence.dialect.Dialect;
 import com.lowen.common.persistence.dialect.db.DB2Dialect;
@@ -20,6 +18,8 @@ import com.lowen.common.persistence.dialect.db.OracleDialect;
 import com.lowen.common.persistence.dialect.db.PostgreSQLDialect;
 import com.lowen.common.persistence.dialect.db.SQLServer2005Dialect;
 import com.lowen.common.persistence.dialect.db.SybaseDialect;
+import com.lowen.common.utils.Global;
+import com.lowen.common.utils.Reflections;
 
 /**
  * Mybatis分页拦截器基类

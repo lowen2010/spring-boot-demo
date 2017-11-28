@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 
 import com.lowen.bus.bean.UserInfo;
 import com.lowen.bus.dao.UserDao;
-import com.lowen.common.Global;
 import com.lowen.common.persistence.Page;
+import com.lowen.common.utils.Global;
 
 @Service
 public class UserService {
